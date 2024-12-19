@@ -3,7 +3,6 @@ const temp = require('temp');
 const path = require('path');
 const constant = require("./const.js")
 
-console.log('start')
 function cloneRepoAndGetOptions() {
     return new Promise((resolve, reject) => {
         temp.mkdir('template-repo', (error, dirPath) => { 
@@ -30,15 +29,12 @@ function cloneRepoAndGetOptions() {
                     }
 
                     const folders = result.trim().split('\n').filter(folder => folder);
-                    console.log('All folders:', folders);
                     const topLevelFolders = [...new Set(folders.map(folderPath => folderPath.split('/')[0]))];
 
                     const options = topLevelFolders.map(folder => ({
                         name: folder,
                         description: `Template for ${folder} pipeline`,
                     }));
-
-                    console.log('Options:', options);
                     resolve({ options, localRepoPath });  // Resolve the promise with options
                 });
             });
