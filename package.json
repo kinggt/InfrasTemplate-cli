@@ -3,17 +3,14 @@
   "version": "1.0.1",
   "description": "cli tool to generate infras template",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "bin": {
-    "infras-template-cli": "bin/index.js"
+    "infras-template-cli": "lib/index.js"
   },
   "scripts": {
-    "start": "node ./bin/index",
-    "version": "node ./bin/index -v",
-    "list": "node ./bin/index list",
-    "init": "node ./bin/index init"
+    "start": "node ./lib/index",
+    "version": "node ./lib/index -v",
+    "list": "node ./lib/index list",
+    "init": "node ./lib/index init"
   },
   "repository": {
     "type": "git",
