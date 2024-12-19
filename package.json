@@ -6,6 +6,9 @@
   "directories": {
     "lib": "lib"
   },
+  "bin": {
+    "infras-template-cli": "bin/index.js"
+  },
   "scripts": {
     "start": "node ./bin/index",
     "version": "node ./bin/index -v",
