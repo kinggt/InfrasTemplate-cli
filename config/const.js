@@ -1,3 +1,3 @@
 module.exports = {
-    gitRepoUrl: 'https://github.com/kinggt/InfrasTemplate',
+    AzureRepoUrl: 'https://dnvgl-one.visualstudio.com/DefaultCollection/Innersource/_git/common-IAC',
 }
