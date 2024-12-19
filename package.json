@@ -33,5 +33,17 @@
     "ora": "^5.4.0",
     "simple-git": "^3.27.0",
     "temp": "^0.9.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.2.0",
+    "figlet": "^1.5.0",
+    "fs-extra": "^11.2.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.0.0",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.0",
+    "simple-git": "^3.27.0",
+    "temp": "^0.9.4"
   }
 }
