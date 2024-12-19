@@ -4,7 +4,7 @@
   "description": "cli tool to generate infras template",
   "main": "index.js",
   "bin": {
-    "infras-template-cli": "lib/index.js"
+    "infras-template-cli": "node ./lib/index"
   },
   "scripts": {
     "start": "node ./lib/index",
@@ -21,7 +21,6 @@
   "devDependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.2.0",
-    "download-git-repo": "^3.0.2",
     "eslint": "^7.23.0",
     "figlet": "^1.5.0",
     "fs-extra": "^11.2.0",
