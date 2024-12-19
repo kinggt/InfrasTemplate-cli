@@ -1,6 +1,6 @@
 {
   "name": "infras-template-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "cli tool to generate infras template",
   "main": "index.js",
   "directories": {
