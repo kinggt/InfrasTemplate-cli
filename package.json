@@ -3,8 +3,11 @@
   "version": "1.0.3",
   "description": "cli tool to generate infras template",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "bin": {
-    "infras-template-cli": "node ./lib/index"
+    "infras-template-cli": "bin/index.js"
   },
   "scripts": {
     "start": "node ./lib/index",
